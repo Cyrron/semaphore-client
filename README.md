@@ -68,7 +68,7 @@ You can retrieve up to 100 sent messages at a time, with support for pagination 
 ####Messages by date range:
 ```php 
     //Use any date format str_to_time() supports
-    echo $client->messages( 'startDate' => '2016-10-01, '2016-10-31' );  
+    echo $client->messages( 'startDate' => '2016-10-01', '2016-10-31' );  
 ```
 ####Messages by telco network:
 ```php 
@@ -136,7 +136,7 @@ Below are other calls you can make:
   {
     "name":"Kickstart",
     "status":"Active",
-    "created":"2016-01-01 00:00:01""
+    "created":"2016-01-01 00:00:01"
   }
 ]
 ```
